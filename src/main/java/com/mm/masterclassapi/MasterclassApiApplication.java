@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MasterclassApiApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Welcome to the Spring Boot masterclass application...");
 		SpringApplication.run(MasterclassApiApplication.class, args);
 	}
 
